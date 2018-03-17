@@ -7,6 +7,7 @@ filepath = path.dirname(path.dirname(__file__))
 class HandwritingInspector():
 
     def file2vector(self, filename):
+        """将数字矩阵转换为一维向量"""
         f = open(filename)
         vector = list() # 创建一个空矩阵
         classLabel = re.findall('(\d+)_\d+\.txt', filename)[0]
