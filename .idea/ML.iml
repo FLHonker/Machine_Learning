@@ -4,5 +4,11 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="data-system" />
+    <orderEntry type="module" module-name="daily_import" />
+    <orderEntry type="module" module-name="chewbacca" />
+    <orderEntry type="module" module-name="data-system" />
+    <orderEntry type="module" module-name="data-system" />
+    <orderEntry type="module" module-name="super_spider" />
   </component>
 </module>

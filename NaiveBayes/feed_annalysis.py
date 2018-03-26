@@ -38,7 +38,7 @@ class FeedAnalysis(SpamFilter):
         vocablist = list()
         for doc in self.data_set:
             vocablist.extend(list(doc))
-        voc_set = list(set(vocablist)) # set是无序的，此处顺序会发生改变
+        voc_set = list(set(vocablist)) # 注意！set是无序的，此处顺序会发生改变
         top30_words = self.calc_most_freq(voc_set, vocablist)
         for w in top30_words:
             voc_set.remove(w[0])
