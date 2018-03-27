@@ -4,7 +4,7 @@ import copy
 import matplotlib.pyplot as plt
 import time
 
-class SVM_Simple():
+class SVMComplete():
 
     def __init__(self):
         self.dataset, self.label_set = self.load_data()
@@ -13,14 +13,14 @@ class SVM_Simple():
         m, n = np.shape(self.data_mat)
         self.alpha = np.mat(np.zeros((m, 1)))  # 参数初始化, 矩阵
         self.b = 0  # 参数初始化
-        self.emap = dict()
+        self.emap = dict() # 只选择不满足KKT条件的进行更新（即已经更新过的）
         for i in range(m):
             self.emap[i] = 0
         
 
     def load_data(self):
 
-        f = open('testSet.txt', 'r')
+        f = open('data/testSet.txt', 'r')
         data_set = []
         label_set = []
         # 将数字转换为浮点型，否则会报错
@@ -49,12 +49,13 @@ class SVM_Simple():
         """选取与Ei差距最大的j"""
         data_mat = self.data_mat
         m,n = np.shape(data_mat)
+        self.emap[i] = 1
         index_list = list(range(m))
         index_list.remove(i)
         max_diff, max_index, Ej = 0, 0, 0 # 初始化最大差距为0
         non_zero_index = list(filter(lambda x:x[1]==1, self.emap.items()))
         print(non_zero_index)
-        if non_zero_index:
+        if len(non_zero_index) > 1: # 优先选择不满足KKT条件的，如果没有则随机选取
             for k in [i[0] for i in non_zero_index]:
                 if k == i:
                     continue
@@ -68,6 +69,7 @@ class SVM_Simple():
             return max_index, Ej
         else:
             j = random.sample(index_list, 1)[0]
+            print('j:{}'.format(j))
             Ej = self.calc_Ej(j)
             return j, Ej
 
@@ -123,9 +125,16 @@ class SVM_Simple():
             print("modified!")
             return 1
         else:
+            self.emap[i] = 1
+
             return 0
 
     def train_svm(self, C, toler, maxIter):
+        """
+        第一次遍历整个数据集
+        第二次遍历0<alpha<C的样本，如果没有样本被更新，则重新遍历所有样本
+        重复以上步骤
+        """
         data_mat = self.data_mat
         m, n = np.shape(data_mat)
         iter = 0
@@ -147,7 +156,6 @@ class SVM_Simple():
                     alpha_pair_changed += self.innerL(i, C, toler)
                 iter += 1
                 print("iter", iter)
-
 
             if entire_set:
                 entire_set = False
@@ -197,7 +205,7 @@ class SVM_Simple():
 
 if __name__ == '__main__':
     time1 = time.time()
-    svm = SVM_Simple()
+    svm = SVMComplete()
     b, alpha = svm.train_svm(0.6, 0.001, 40)
     print(b, alpha)
     w = svm.alpha2w(alpha)

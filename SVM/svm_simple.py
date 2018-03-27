@@ -4,7 +4,7 @@ import copy
 import matplotlib.pyplot as plt
 import time
 
-class SVM_Simple():
+class SVMSimple():
 
     def __init__(self):
         self.dataset, self.label_set = self.load_data()
@@ -14,7 +14,7 @@ class SVM_Simple():
 
     def load_data(self):
 
-        f = open('testSet.txt', 'r')
+        f = open('data/testSet.txt', 'r')
         data_set = []
         label_set = []
         # 将数字转换为浮点型，否则会报错
@@ -149,7 +149,7 @@ class SVM_Simple():
 
 if __name__ == '__main__':
     time1 = time.time()
-    svm = SVM_Simple()
+    svm = SVMSimple()
     b, alpha = svm.train_svm(0.6, 0.001, 20)
     print(b, alpha)
     w = svm.alpha2w(alpha)
