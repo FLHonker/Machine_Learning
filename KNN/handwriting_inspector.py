@@ -5,7 +5,7 @@ import re
 filepath = path.dirname(path.dirname(__file__))
 
 class HandwritingInspector():
-
+    # todo: 降低数值精度，减小资源消耗
     def file2vector(self, filename):
         """将数字矩阵转换为一维向量"""
         f = open(filename)

@@ -10,5 +10,6 @@
     <orderEntry type="module" module-name="data-system" />
     <orderEntry type="module" module-name="data-system" />
     <orderEntry type="module" module-name="super_spider" />
+    <orderEntry type="module" module-name="jianxun-resume" />
   </component>
 </module>

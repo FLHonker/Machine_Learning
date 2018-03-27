@@ -6,6 +6,7 @@
     <mapping directory="$PROJECT_DIR$/../chewbacca" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../daily_import" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../data-system" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../jianxun-resume" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../job51" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../super_spider" vcs="Git" />
   </component>

@@ -5,6 +5,7 @@ __pycache__/
 
 # SourceCode
 machinelearninginaction/
+*/data
 
 # C extensions
 *.so
