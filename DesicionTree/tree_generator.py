@@ -148,6 +148,7 @@ if __name__ == '__main__':
     data = tree.load_data('machinelearninginaction/Ch03/lenses.txt') # 训练集必须包括特征所有可能的值
     feature_map = {0:'age', 1:'prescript', 2:'astigmatic', 3:"tearRate"}
     t = tree.gen_tree(data, feature_map) # feature_map发生了变化
+    print(t)
     tree.save_tree(t)
     # print(t)
     # print(tree.classify(t, {0:'no surfacing', 1:'flippers'}, ['no','no']))
