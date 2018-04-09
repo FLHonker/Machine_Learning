@@ -104,11 +104,13 @@ class Cart():
         retTree['right'] = self.calc_mean(rmat)
         ltmat, rtmat = self.bsplit_datamat(testdata, feat, val) # 测试集的左右数据集
         unmerge_error, merge_error = self.get_error(retTree, ltmat, rtmat, testdata)
+        print("unmerge_error:{};merge_error:{}".format(unmerge_error, merge_error))
         if unmerge_error < merge_error: # 如果不剪枝的误差小于剪枝的误差，则不剪枝
             retTree['left'] = self.pre_prune(lmat, ltmat, ops) # 左树
             retTree['right'] = self.pre_prune(rmat, rtmat, ops) # 右树
         else:
             print("merge")
+            retTree = self.calc_mean(datamat)
 
         return retTree
 

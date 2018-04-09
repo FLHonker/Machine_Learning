@@ -138,6 +138,8 @@ class RegTree():
             retTree['right'] = self.pre_prune(rmat, rtmat, ops) # 右树
         else:
             print("merge")
+            retTree = self.calc_leaf(datamat) # 如果剪枝后的误差小于不剪枝误差，则剪枝，即不进行分割
+
 
         return retTree
 
