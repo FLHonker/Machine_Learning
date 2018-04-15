@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../JD_Spider/.idea/JD_Spider.iml" filepath="$PROJECT_DIR$/../JD_Spider/.idea/JD_Spider.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/ML.iml" filepath="$PROJECT_DIR$/.idea/ML.iml" />
       <module fileurl="file://$PROJECT_DIR$/../chewbacca/.idea/chewbacca.iml" filepath="$PROJECT_DIR$/../chewbacca/.idea/chewbacca.iml" />
       <module fileurl="file://$PROJECT_DIR$/../daily_import/.idea/daily_import.iml" filepath="$PROJECT_DIR$/../daily_import/.idea/daily_import.iml" />
       <module fileurl="file://$PROJECT_DIR$/../data-system/.idea/data-system.iml" filepath="$PROJECT_DIR$/../data-system/.idea/data-system.iml" />
       <module fileurl="file://$PROJECT_DIR$/../jianxun-resume/.idea/jianxun-resume.iml" filepath="$PROJECT_DIR$/../jianxun-resume/.idea/jianxun-resume.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../super_spider/.idea/super_spider.iml" filepath="$PROJECT_DIR$/../super_spider/.idea/super_spider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../JD_Spider/.idea/super_spider.iml" filepath="$PROJECT_DIR$/../JD_Spider/.idea/super_spider.iml" />
     </modules>
   </component>
 </project>
