@@ -1,13 +1,21 @@
 import numpy as np
-import json
+import json, re
 
 class Apriori():
 
     def __init__(self):
         pass
 
-    def load_data(self):
-        return [[1, 3, 4], [2, 3, 5], [1, 2, 3, 5], [2, 5]]
+    def load_data(self, filename=None):
+        if not filename:
+            return [[1, 3, 4], [2, 3, 5], [1, 2, 3, 5], [2, 5]]
+        else:
+            file = open(filename, 'r')
+            data = list()
+            for l in file:
+                line = re.split('\s', l.strip())
+                data.append(line)
+            return data
 
     def creat_c1(self, dataset):
         c1 = list()
@@ -44,6 +52,11 @@ class Apriori():
         return support, support_data
 
     def apriori(self, dataset, minsupport=0.75):
+        """生成频繁集
+        首先根据数据集生成不重复的单个元素组成的数组
+        根据每个元素在数组中出现的次数生成单个元素频繁项集
+        由单个元素的频繁项集逐步生成多个元素的频繁项集
+        """
         support, support_data = dict(), list()
         ck = self.creat_c1(dataset)
         s, sd = self.scanD(dataset, ck, minsupport)
@@ -59,12 +72,18 @@ class Apriori():
         return support_data, support
 
     def generate_rules(self, support_data, support, minconf=0.7):
-
+        """对每个频繁集生成关联规则
+        eg:[[[1],[2]],[[1,2],[3,4]],[[1,2,3],[4,5,6]]]
+        对[1,2],[3,4],[1,2,3]...生成关联规则
+        对于每一个频繁集[1,2,3,...m], 分别以1个元素，
+        2个元素，...m-1个元素为左部生成关联规则
+        1 --> rest; 1,2 --> reset; 1,2,3 --> rest ...
+        """
         big_rule_list = list()
         for i in range(1, len(support_data)):
             if support_data[i]:
                 for freqset in support_data[i]:
-                    freqset = [[i] for i in freqset]
+                    freqset = [[i] for i in freqset]  # [[2],[3],...,]
                     if i > 1:
                         self.rules_from_conseq(freqset, support, big_rule_list, minconf)
                     else:
@@ -93,7 +112,8 @@ class Apriori():
 
 if __name__ == '__main__':
     ap = Apriori()
-    data = ap.load_data()
+    data = ap.load_data('data/mushroom.txt')
+    print(data)
     # c1 = ap.creat_c1(data)
     # print(c1)
     support_data, support = ap.apriori(data, 0.5)
