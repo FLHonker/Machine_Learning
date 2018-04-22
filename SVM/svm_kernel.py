@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 import time
 
 class SVMKernel():
+    """plat-smo, 启发式选取alpha, 加速收敛"""
 
     def __init__(self, C, toler, maxIter, ktup, first=False):
         self.first = first

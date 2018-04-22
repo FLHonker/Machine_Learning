@@ -2,11 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fd7dfaf-aeee-4dd6-abf4-3eb91c6a823d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../JD-Spider/.idea/JD-Spider.iml" afterPath="$PROJECT_DIR$/../JD-Spider/.idea/JD-Spider.iml" />
+      <change beforePath="$PROJECT_DIR$/../JD-Spider/.idea/modules.xml" afterPath="$PROJECT_DIR$/../JD-Spider/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/../JD-Spider/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../JD-Spider/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/../JD-Spider/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../JD-Spider/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../JD-Spider/modules/consumer.py" afterPath="$PROJECT_DIR$/../JD-Spider/modules/consumer.py" />
       <change beforePath="$PROJECT_DIR$/.idea/ML.iml" afterPath="$PROJECT_DIR$/.idea/ML.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/NaiveBayes/feed_annalysis.py" afterPath="$PROJECT_DIR$/NaiveBayes/feed_annalysis.py" />
+      <change beforePath="$PROJECT_DIR$/Apriori/apriori.py" afterPath="$PROJECT_DIR$/Apriori/apriori.py" />
+      <change beforePath="$PROJECT_DIR$/CART/reg_tree.py" afterPath="$PROJECT_DIR$/CART/reg_tree.py" />
+      <change beforePath="$PROJECT_DIR$/FP-Growth/fp_tree.py" afterPath="$PROJECT_DIR$/FP-Growth/fp_tree.py" />
+      <change beforePath="$PROJECT_DIR$/LogisticRegression/logsitic_regression.py" afterPath="$PROJECT_DIR$/LogisticRegression/logsitic_regression.py" />
+      <change beforePath="$PROJECT_DIR$/SVM/svm_handwriting_inspector.py" afterPath="$PROJECT_DIR$/SVM/svm_handwriting_inspector.py" />
+      <change beforePath="$PROJECT_DIR$/SVM/svm_kernel.py" afterPath="$PROJECT_DIR$/SVM/svm_kernel.py" />
       <change beforePath="$PROJECT_DIR$/machinelearninginaction/Ch02/EXTRAS/README.txt" afterPath="$PROJECT_DIR$/machinelearninginaction/Ch02/EXTRAS/README.txt" />
       <change beforePath="$PROJECT_DIR$/machinelearninginaction/Ch02/EXTRAS/createDist.py" afterPath="$PROJECT_DIR$/machinelearninginaction/Ch02/EXTRAS/createDist.py" />
       <change beforePath="$PROJECT_DIR$/machinelearninginaction/Ch02/EXTRAS/createDist2.py" afterPath="$PROJECT_DIR$/machinelearninginaction/Ch02/EXTRAS/createDist2.py" />
@@ -104,6 +114,11 @@
       <change beforePath="$PROJECT_DIR$/machinelearninginaction/Ch15/testSet.txt" afterPath="$PROJECT_DIR$/machinelearninginaction/Ch15/testSet.txt" />
       <change beforePath="$PROJECT_DIR$/machinelearninginaction/Ch15/testSet200.txt" afterPath="$PROJECT_DIR$/machinelearninginaction/Ch15/testSet200.txt" />
       <change beforePath="$PROJECT_DIR$/machinelearninginaction/README.rst" afterPath="$PROJECT_DIR$/machinelearninginaction/README.rst" />
+      <change beforePath="$PROJECT_DIR$/../chewbacca/server/modules/talent/model/__init__.py" afterPath="$PROJECT_DIR$/../chewbacca/server/modules/talent/model/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/../chewbacca/server/modules/talent/model/folder.py" afterPath="$PROJECT_DIR$/../chewbacca/server/modules/talent/model/folder.py" />
+      <change beforePath="$PROJECT_DIR$/../chewbacca/server/modules/talent/model/user_list_info.py" afterPath="$PROJECT_DIR$/../chewbacca/server/modules/talent/model/user_list_info.py" />
+      <change beforePath="$PROJECT_DIR$/../chewbacca/server/modules/talent/statistics.py" afterPath="$PROJECT_DIR$/../chewbacca/server/modules/talent/statistics.py" />
+      <change beforePath="$PROJECT_DIR$/../super_spider/queue_test.py" afterPath="$PROJECT_DIR$/../super_spider/queue_test.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -117,48 +132,96 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
-      <file leaf-file-name="crawler_proxy.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../data-system/real_time_crawler/crawler_proxy.py">
+      <file leaf-file-name="svm_simple.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SVM/svm_simple.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="151" column="16" lean-forward="false" selection-start-line="151" selection-start-column="16" selection-end-line="151" selection-end-column="16" />
+            <state relative-caret-position="-164">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../data-system/extractor/resumes/__init__.py">
+      <file leaf-file-name="svm_kernel.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SVM/svm_kernel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4512">
-              <caret line="111" column="13" lean-forward="false" selection-start-line="111" selection-start-column="4" selection-end-line="111" selection-end-column="13" />
+            <state relative-caret-position="-352">
+              <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="weibo_consumer.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../super_spider/modules/weibo_consumer.py">
+      <file leaf-file-name="perceptron.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Perceptron/perceptron.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="512">
-              <caret line="115" column="20" lean-forward="false" selection-start-line="102" selection-start-column="12" selection-end-line="115" selection-end-column="20" />
+              <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
               <folding>
-                <element signature="e#0#14#0" expanded="true" />
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="weibo_producer.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../super_spider/modules/weibo_producer.py">
+      <file leaf-file-name="adalinegd.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Perceptron/adalinegd.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="100" column="45" lean-forward="false" selection-start-line="100" selection-start-column="38" selection-end-line="100" selection-end-column="48" />
+            <state relative-caret-position="256">
+              <caret line="26" column="27" lean-forward="false" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="adalinesgd.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Perceptron/adalinesgd.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="80" column="18" lean-forward="true" selection-start-line="80" selection-start-column="8" selection-end-line="80" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mtrand.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.PyCharmCE2017.3/system/python_stubs/18189896/numpy/random/mtrand.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-74">
+              <caret line="1780" column="4" lean-forward="false" selection-start-line="1780" selection-start-column="4" selection-end-line="1780" selection-end-column="4" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logsitic_regression.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LogisticRegression/logsitic_regression.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1024">
+              <caret line="56" column="26" lean-forward="false" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="svm_complete.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SVM/svm_complete.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-5760">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -174,8 +237,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>get_IP</find>
-      <find>self.r</find>
       <find>client</find>
       <find>500</find>
       <find>a+</find>
@@ -203,6 +264,9 @@
       <find>ma</find>
       <find>func</find>
       <find>id</find>
+      <find>exists</find>
+      <find>ACTIVE_TALENT_QUEUE</find>
+      <find>ListItemWithWeeklyMatch</find>
     </findStrings>
     <replaceStrings>
       <replace>self.alpha</replace>
@@ -211,53 +275,26 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../data-system" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../data-system/extractor/resumes/sites/w51job/html_to_dict_job51.py" />
-        <option value="$PROJECT_DIR$/../data-system/extractor/resumes/sites/w51job/html_to_dict_job51 (复件).py" />
-        <option value="$PROJECT_DIR$/../daily_import/server/wri_te.py" />
-        <option value="$PROJECT_DIR$/../daily_import/server/import_contact_resume.py" />
-        <option value="$PROJECT_DIR$/SVM/l.py" />
-        <option value="$PROJECT_DIR$/SVM/test.py" />
-        <option value="$PROJECT_DIR$/SVM/svm_simple.py" />
-        <option value="$PROJECT_DIR$/SVM/test_complete.py" />
-        <option value="$PROJECT_DIR$/SVM/svm_complete.py" />
-        <option value="$PROJECT_DIR$/LogisticRegression/silk_horse_prediction.py" />
-        <option value="$PROJECT_DIR$/AdaBoost/adaboost.py" />
-        <option value="$PROJECT_DIR$/../chewbacca/server/core/redisdb.py" />
-        <option value="$PROJECT_DIR$/../chewbacca/server/core/utils.py" />
-        <option value="$PROJECT_DIR$/../chewbacca/server/core/model.py" />
-        <option value="$PROJECT_DIR$/../chewbacca/server/scripts/parse_resume.py" />
-        <option value="$PROJECT_DIR$/../chewbacca/server/modules/account/model/user.py" />
-        <option value="$PROJECT_DIR$/../chewbacca/server/modules/account/utils.py" />
-        <option value="$USER_HOME$/Desktop/python_study/practice/as.py" />
-        <option value="$PROJECT_DIR$/../chewbacca/server/modules/talent/upload.py" />
-        <option value="$PROJECT_DIR$/../daily_import/server/core/sms.py" />
-        <option value="$PROJECT_DIR$/../chewbacca/server/scripts/list_status_email_push.py" />
-        <option value="$PROJECT_DIR$/../chewbacca/server/core/sms.py" />
-        <option value="$PROJECT_DIR$/../chewbacca/server/core/email_send.py" />
-        <option value="$PROJECT_DIR$/../chewbacca/server/modules/account/__init__.py" />
         <option value="$PROJECT_DIR$/DesicionTree/tree_generator.py" />
         <option value="$PROJECT_DIR$/CART/cart_tree.py" />
         <option value="$PROJECT_DIR$/LinearRegression/linear_regression.py" />
         <option value="$PROJECT_DIR$/../chewbacca/server/modules/account/view.py" />
         <option value="$USER_HOME$/Desktop/jiekou.py" />
         <option value="$PROJECT_DIR$/CART/cart.py" />
-        <option value="$PROJECT_DIR$/CART/reg_tree.py" />
         <option value="$PROJECT_DIR$/K-Means/class_method.py" />
         <option value="$PROJECT_DIR$/../daily_import/server/out_inner.py" />
         <option value="$PROJECT_DIR$/../chewbacca/server/core/schema.py" />
         <option value="$PROJECT_DIR$/../chewbacca/server/settings/constant.py" />
-        <option value="$USER_HOME$/Desktop/python_study/practice/sqlalchemy_test.py" />
         <option value="$PROJECT_DIR$/../chewbacca/server/modules/talent/__init__.py" />
         <option value="$PROJECT_DIR$/K-Means/K-Means.py" />
         <option value="$PROJECT_DIR$/../chewbacca/server/modules/talent/channel_resume.py" />
         <option value="$PROJECT_DIR$/Apriori/apriori.py" />
         <option value="$PROJECT_DIR$/../JD/test.py" />
-        <option value="$PROJECT_DIR$/../chewbacca/server/modules/talent/model/resume_list.py" />
         <option value="$PROJECT_DIR$/../chewbacca/server/modules/talent/model/channel_resume.py" />
         <option value="$PROJECT_DIR$/../JD_Spider/modules/__init__.py" />
         <option value="$PROJECT_DIR$/../JD_Spider/task_generator.py" />
@@ -267,6 +304,33 @@
         <option value="$PROJECT_DIR$/../JD_Spider/fetch_proxy.py" />
         <option value="$PROJECT_DIR$/../JD_Spider/modules/consumer.py" />
         <option value="$PROJECT_DIR$/../JD_Spider/modules/producer.py" />
+        <option value="$PROJECT_DIR$/../super_spider/queue_test.py" />
+        <option value="$PROJECT_DIR$/CART/reg_tree.py" />
+        <option value="$PROJECT_DIR$/../chewbacca/server/modules/talent/folder.py" />
+        <option value="$PROJECT_DIR$/../chewbacca/server/modules/talent/resume.py" />
+        <option value="$PROJECT_DIR$/../chewbacca/server/modules/talent/ali_sts.py" />
+        <option value="$USER_HOME$/Desktop/python_study/practice/sqlalchemy_test.py" />
+        <option value="$PROJECT_DIR$/../chewbacca/server/modules/talent/model/resume.py" />
+        <option value="$PROJECT_DIR$/../JD-Spider/modules/consumer.py" />
+        <option value="$PROJECT_DIR$/../chewbacca/server/modules/talent/model/folder.py" />
+        <option value="$PROJECT_DIR$/../chewbacca/server/modules/talent/model/__init__.py" />
+        <option value="$PROJECT_DIR$/../chewbacca/server/modules/talent/statistics.py" />
+        <option value="$PROJECT_DIR$/../chewbacca/server/modules/talent/model/resume_list.py" />
+        <option value="$PROJECT_DIR$/../data-system/extractor/resumes/sites/zhilian/html_to_dict.py" />
+        <option value="$PROJECT_DIR$/../data-system/extractor/resumes/sites/zhilian/test.py" />
+        <option value="$PROJECT_DIR$/../data-system/extractor/resumes/sites/zhilian/html_to_dict_new.py" />
+        <option value="$PROJECT_DIR$/../chewbacca/server/modules/talent/model/user_list_info.py" />
+        <option value="$PROJECT_DIR$/../chewbacca/server/modules/talent/model/statistics.py" />
+        <option value="$PROJECT_DIR$/SVD/svdRec.py" />
+        <option value="$PROJECT_DIR$/PCA/pca.py" />
+        <option value="$PROJECT_DIR$/MapReduce/mrMeanMapper.py" />
+        <option value="$PROJECT_DIR$/MapReduce/mrMeanReducer.py" />
+        <option value="$PROJECT_DIR$/SVM/svm_kernel.py" />
+        <option value="$PROJECT_DIR$/Perceptron/adalinegd.py" />
+        <option value="$PROJECT_DIR$/Perceptron/perceptron.py" />
+        <option value="$PROJECT_DIR$/LogisticRegression/logsitic_regression.py" />
+        <option value="$PROJECT_DIR$/scikit-learn/chapter3-classification/sklearn-perceptron.ipynb" />
+        <option value="$PROJECT_DIR$/Perceptron/adalinesgd.py" />
       </list>
     </option>
   </component>
@@ -291,49 +355,42 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Machine_Learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data-system" type="462c0819:PsiDirectoryNode" />
+              <item name="Machine_Learning" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Machine_Learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data-system" type="462c0819:PsiDirectoryNode" />
-              <item name="extractor" type="462c0819:PsiDirectoryNode" />
+              <item name="Machine_Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="scikit-learn" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Machine_Learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data-system" type="462c0819:PsiDirectoryNode" />
-              <item name="real_time_crawler" type="462c0819:PsiDirectoryNode" />
+              <item name="Machine_Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="scikit-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter3-classification" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Machine_Learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data-system" type="462c0819:PsiDirectoryNode" />
-              <item name="real_time_crawler" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Machine_Learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JD_Spider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Machine_Learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JD_Spider" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="Machine_Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="scikit-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter3-classification" type="462c0819:PsiDirectoryNode" />
+              <item name=".ipynb_checkpoints" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JD_Spider" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JD-Spider" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -347,111 +404,111 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test (1)">
-    <configuration name="consumer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.sklearn-perceptron">
+    <configuration name="adalinegd" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../JD_Spider/modules" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Perceptron" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="JD_Spider" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../JD_Spider/modules/consumer.py" />
+      <module name="ML" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Perceptron/adalinegd.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="fetch_proxy" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="adalinesgd" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../JD_Spider" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Perceptron" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="JD_Spider" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../JD_Spider/fetch_proxy.py" />
+      <module name="ML" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Perceptron/adalinesgd.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="producer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="logsitic_regression" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../JD_Spider/modules" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LogisticRegression" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="JD_Spider" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../JD_Spider/modules/producer.py" />
+      <module name="ML" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LogisticRegression/logsitic_regression.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="sklearn-perceptron" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../JD_Spider" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="JD_Spider" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../JD_Spider/run.py" />
+      <module name="JD-Spider" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/sklearn-perceptron.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="svdRec" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../JD_Spider" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SVD" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="JD_Spider" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../JD_Spider/test.py" />
+      <module name="ML" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SVD/svdRec.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.test (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Python.producer" />
-      <item index="2" class="java.lang.String" itemvalue="Python.consumer" />
-      <item index="3" class="java.lang.String" itemvalue="Python.fetch_proxy" />
-      <item index="4" class="java.lang.String" itemvalue="Python.run" />
+      <item index="0" class="java.lang.String" itemvalue="Python.svdRec" />
+      <item index="1" class="java.lang.String" itemvalue="Python.adalinegd" />
+      <item index="2" class="java.lang.String" itemvalue="Python.logsitic_regression" />
+      <item index="3" class="java.lang.String" itemvalue="Python.adalinesgd" />
+      <item index="4" class="java.lang.String" itemvalue="Python.sklearn-perceptron" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.test (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.run" />
-        <item index="2" class="java.lang.String" itemvalue="Python.fetch_proxy" />
-        <item index="3" class="java.lang.String" itemvalue="Python.producer" />
-        <item index="4" class="java.lang.String" itemvalue="Python.consumer" />
+        <item index="0" class="java.lang.String" itemvalue="Python.sklearn-perceptron" />
+        <item index="1" class="java.lang.String" itemvalue="Python.adalinesgd" />
+        <item index="2" class="java.lang.String" itemvalue="Python.logsitic_regression" />
+        <item index="3" class="java.lang.String" itemvalue="Python.adalinegd" />
+        <item index="4" class="java.lang.String" itemvalue="Python.svdRec" />
       </list>
     </recent_temporary>
   </component>
@@ -484,16 +541,17 @@
     <frame x="0" y="-15" width="1922" height="1083" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2606157" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988626" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961783" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988626" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28231645" sideWeight="0.5021231" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988626" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5139607" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6546019" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.76938987" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.9245088" sideWeight="0.49787685" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.9720786" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22399151" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988626" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961783" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3991727" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -501,7 +559,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -518,276 +575,83 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../chewbacca/docker/3proxy.cfg">
+    <entry file="file://$PROJECT_DIR$/../JD-Spider/modules/consumer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../chewbacca/docker/Dockerfile.python-alpine-aizhaopin">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../chewbacca/docker/Dockerfile.server">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../chewbacca/docker/excludes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../chewbacca/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3136">
-          <caret line="98" column="25" lean-forward="false" selection-start-line="98" selection-start-column="25" selection-end-line="98" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../chewbacca/docker/Dockerfile.node">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../chewbacca/docker/Dockerfile.proxy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="896">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../chewbacca/docker/Dockerfile.python-alpine">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="4" column="50" lean-forward="false" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../chewbacca/docker/Dockerfile.nginx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../chewbacca/docker/Dockerfile.python">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apriori/apriori.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../chewbacca/server/modules/talent/folder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../scrapy-JD/entrypoint.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../scrapy-JD/JD/middlewares.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="35" column="31" lean-forward="false" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../scrapy-JD/JD/items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/python_study/project/web_scraping/scrapy_projects/lagou/lagou/spiders/lagou_spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/python_study/project/web_scraping/scrapy_projects/lagou/lagou/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2716">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/haomin/lagou_spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/python_study/project/web_scraping/scrapy_projects/JD/JD/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="27" column="44" lean-forward="true" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/python_study/project/web_scraping/scrapy_projects/JD_mysql/JD/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2148">
-          <caret line="105" column="56" lean-forward="true" selection-start-line="105" selection-start-column="56" selection-end-line="105" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/python_study/project/web_scraping/scrapy_projects/JD_mysql/JD/spiders/JDspider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2144">
-          <caret line="76" column="35" lean-forward="false" selection-start-line="76" selection-start-column="35" selection-end-line="76" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/python_study/project/web_scraping/scrapy_projects/JD/JD/spiders/JDspider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2044">
-          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../chewbacca/docker/conf/location.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../chewbacca/server.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../chewbacca/docker/conf/online_nginx.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../chewbacca/server/settings/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="22" column="41" lean-forward="false" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../scrapy-JD/JD/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1440">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../JD/test.py" />
-    <entry file="file://$PROJECT_DIR$/../super_spider/task_generator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="192" column="100" lean-forward="true" selection-start-line="191" selection-start-column="8" selection-end-line="192" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../chewbacca/server/modules/talent/model/resume.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="288">
+          <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../chewbacca/server/modules/talent/model/resume_list.py">
+    <entry file="file://$PROJECT_DIR$/../data-system/extractor/resumes/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="992">
-          <caret line="63" column="17" lean-forward="false" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#11#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/python_study/practice/sqlalchemy_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="445">
+          <caret line="261" column="4" lean-forward="true" selection-start-line="261" selection-start-column="4" selection-end-line="261" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../chewbacca/server/modules/talent/model/folder.py">
+    <entry file="file://$PROJECT_DIR$/../daily_import/server/modules/talent/model/folder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5280">
-          <caret line="191" column="29" lean-forward="false" selection-start-line="185" selection-start-column="8" selection-end-line="191" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../chewbacca/server/modules/talent/model/channel_resume.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#14#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../JD_Spider/modules/weibo_consumer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="310">
+          <caret line="238" column="8" lean-forward="false" selection-start-line="238" selection-start-column="8" selection-end-line="238" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../JD_Spider/modules/__init__.py">
+    <entry file="file://$PROJECT_DIR$/../daily_import/server/modules/talent/model/user_list_info.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        <state relative-caret-position="310">
+          <caret line="105" column="8" lean-forward="false" selection-start-line="105" selection-start-column="8" selection-end-line="105" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../chewbacca/server/core/schema.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="521" column="8" lean-forward="false" selection-start-line="521" selection-start-column="4" selection-end-line="521" selection-end-column="11" />
+        <state relative-caret-position="427">
+          <caret line="333" column="8" lean-forward="false" selection-start-line="333" selection-start-column="8" selection-end-line="333" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../JD_Spider/db_config.py">
+    <entry file="file://$PROJECT_DIR$/../chewbacca/server/core/mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chewbacca/server/modules/talent/statistics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.pyenv/versions/3.6.3/lib/python3.6/site-packages/sqlalchemy/sql/functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9015">
+          <caret line="326" column="0" lean-forward="false" selection-start-line="326" selection-start-column="0" selection-end-line="326" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chewbacca/server/settings/constant.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="305" column="10" lean-forward="false" selection-start-line="305" selection-start-column="10" selection-end-line="305" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../data-system/extractor/resumes/zhilian.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -795,112 +659,374 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../JD_Spider/task_generator.py">
+    <entry file="file://$PROJECT_DIR$/../data-system/extractor/resumes/sites/zhilian/html_to_dict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31648">
+          <caret line="1058" column="16" lean-forward="false" selection-start-line="1058" selection-start-column="16" selection-end-line="1058" selection-end-column="32" />
+          <folding>
+            <element signature="e#16#25#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../data-system/extractor/resumes/sites/zhilian/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#9#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../data-system/extractor/resumes/sites/zhilian/html_to_dict_new.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1385">
+          <caret line="75" column="25" lean-forward="true" selection-start-line="73" selection-start-column="12" selection-end-line="75" selection-end-column="25" />
+          <folding>
+            <element signature="e#16#25#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chewbacca/server/modules/talent/model/upload_resume.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-74">
+          <caret line="86" column="24" lean-forward="false" selection-start-line="86" selection-start-column="24" selection-end-line="86" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chewbacca/server/modules/talent/model/upload_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chewbacca/server/modules/talent/model/search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5411">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chewbacca/server/modules/talent/list_item.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-700">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chewbacca/server/modules/talent/match_item.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-860">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chewbacca/server/modules/talent/remark.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3580">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chewbacca/server/modules/talent/resume.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chewbacca/server/modules/talent/upload.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2556">
+          <caret line="51" column="58" lean-forward="false" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chewbacca/server/modules/talent/model/resume_task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1024">
+          <caret line="42" column="25" lean-forward="false" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chewbacca/server/modules/talent/model/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="1" column="25" lean-forward="false" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chewbacca/server/modules/talent/model/list_item.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="33" column="29" lean-forward="false" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chewbacca/server/modules/talent/model/resume_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="269" column="40" lean-forward="false" selection-start-line="269" selection-start-column="40" selection-end-line="269" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chewbacca/server/modules/talent/model/folder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="247" column="8" lean-forward="false" selection-start-line="247" selection-start-column="8" selection-end-line="247" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chewbacca/server/modules/talent/ali_sts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="30" column="41" lean-forward="false" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chewbacca/server/modules/talent/model/user_list_info.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="516">
-          <caret line="122" column="42" lean-forward="false" selection-start-line="122" selection-start-column="35" selection-end-line="122" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../scrapy-JD/JD/spiders/JDspider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="112" column="56" lean-forward="true" selection-start-line="106" selection-start-column="12" selection-end-line="112" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.pyenv/versions/3.6.3/lib/python3.6/hashlib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../data-system/extractor/resumes/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4512">
-          <caret line="111" column="13" lean-forward="false" selection-start-line="111" selection-start-column="4" selection-end-line="111" selection-end-column="13" />
+          <caret line="101" column="45" lean-forward="false" selection-start-line="101" selection-start-column="45" selection-end-line="101" selection-end-column="45" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../super_spider/modules/weibo_producer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="100" column="45" lean-forward="false" selection-start-line="100" selection-start-column="38" selection-end-line="100" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../JD_Spider/spider_queue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="75" column="27" lean-forward="false" selection-start-line="75" selection-start-column="27" selection-end-line="75" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../super_spider/modules/weibo_consumer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="115" column="20" lean-forward="false" selection-start-line="102" selection-start-column="12" selection-end-line="115" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../JD_Spider/fetch_proxy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="27" column="24" lean-forward="false" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../JD_Spider/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="28" column="23" lean-forward="false" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../JD_Spider/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../JD_Spider/modules/consumer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1792">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../JD_Spider/modules/producer.py">
+    <entry file="file://$PROJECT_DIR$/../chewbacca/server/modules/talent/model/statistics.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
-          <caret line="90" column="0" lean-forward="true" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+          <caret line="35" column="6" lean-forward="true" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chewbacca/server/modules/talent/model/resume.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9395">
+          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../data-system/real_time_crawler/crawler_proxy.py">
+    <entry file="file://$PROJECT_DIR$/../chewbacca/server/modules/talent/folder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="151" column="16" lean-forward="false" selection-start-line="151" selection-start-column="16" selection-end-line="151" selection-end-column="16" />
+        <state relative-caret-position="-2947">
+          <caret line="96" column="46" lean-forward="true" selection-start-line="96" selection-start-column="46" selection-end-line="96" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/python_study/practice/sqlalchemy_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="84" column="37" lean-forward="false" selection-start-line="84" selection-start-column="37" selection-end-line="84" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/machinelearninginaction/Ch14/svdRec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2051">
+          <caret line="23" column="39" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="28" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SVD/svdRec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-572">
+          <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PCA/pca.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-640">
+          <caret line="14" column="73" lean-forward="false" selection-start-line="14" selection-start-column="73" selection-end-line="14" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2017.3/system/python_stubs/18189896/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="479" column="54" lean-forward="false" selection-start-line="479" selection-start-column="41" selection-end-line="479" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MapReduce/mrMeanMapper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="16" column="44" lean-forward="false" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="44" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MapReduce/mrMeanReducer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SVM/svm_complete.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5760">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SVM/svm_simple.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-164">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SVM/svm_kernel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-352">
+          <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Perceptron/adalinegd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="26" column="27" lean-forward="false" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Perceptron/perceptron.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinearRegression/linear_regression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4032">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2017.3/system/python_stubs/18189896/numpy/random/mtrand.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-74">
+          <caret line="1780" column="4" lean-forward="false" selection-start-line="1780" selection-start-column="4" selection-end-line="1780" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LogisticRegression/logsitic_regression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1024">
+          <caret line="56" column="26" lean-forward="false" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scikit-learn/chapter3-classification/.ipynb_checkpoints/sklearn-perceptron-checkpoint.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scikit-learn/chapter3-classification/sklearn-perceptron.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/sklearn-perceptron.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <folding>
+            <element signature="e#29#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.pyenv/versions/3.6.3/lib/python3.6/site-packages/sklearn/linear_model/perceptron.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="118" column="52" lean-forward="false" selection-start-line="118" selection-start-column="47" selection-end-line="118" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Perceptron/adalinesgd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="80" column="18" lean-forward="true" selection-start-line="80" selection-start-column="8" selection-end-line="80" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>

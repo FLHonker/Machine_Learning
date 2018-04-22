@@ -40,7 +40,7 @@ class LR():
         maxCycles = 500
         weights = np.ones((n,1)) # 只有一列的矩阵，表示要求的权值
         for j in range(maxCycles):
-            for i in range(m):
+            for i in range(m):  # 每次随机选取一个进行更新
                 alpha = 4/(1+i+j) + 0.01 # 随着次数的增加，alpha逐渐变小
                 rand_index = int(random.uniform(0,np.shape(data_matrix)[0]))
                 h = self.sigmoid(data_matrix[rand_index]*weights) # 只有一列的矩阵，表示每个样本类别的预测值

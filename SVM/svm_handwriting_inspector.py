@@ -22,7 +22,7 @@ class SVMWriting(SVMKernel):
         f = open(filename)
         vector = list() # 创建一个空矩阵
         classLabel = re.findall('(\d+)_\d+\.txt', filename)[0]
-        classLabel = -1 if int(classLabel) == 9 else 1
+        classLabel = -1 if int(classLabel) == 9 else 1  # 转换为二分类，9:-1'; reset:1
         for l in f:
             line = l.strip()
             for i in line:

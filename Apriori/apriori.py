@@ -112,7 +112,7 @@ class Apriori():
 
 if __name__ == '__main__':
     ap = Apriori()
-    data = ap.load_data('data/mushroom.txt')
+    data = ap.load_data()
     print(data)
     # c1 = ap.creat_c1(data)
     # print(c1)

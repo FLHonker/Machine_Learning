@@ -2,6 +2,7 @@ import numpy as np
 from pprint import pprint
 
 class RegTree():
+    """模型树"""
 
     def __init__(self):
         pass

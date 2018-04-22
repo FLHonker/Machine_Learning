@@ -2,6 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../JD-Spider" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../JD_Spider" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/machinelearninginaction" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../chewbacca" vcs="Git" />
